@@ -195,7 +195,7 @@ io.on('connection', function (socket) {
     console.log('User connected');
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 
 http.listen(PORT, function () {
     console.log('The app is running...');
